@@ -16,6 +16,7 @@
 		565F3FA6276F1827000E67FC /* RouteTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565F3FA5276F1827000E67FC /* RouteTaskTests.swift */; };
 		565F3FB0276F1827000E67FC /* RouteTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565F3FAF276F1827000E67FC /* RouteTaskUITests.swift */; };
 		565F3FB2276F1827000E67FC /* RouteTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565F3FB1276F1827000E67FC /* RouteTaskUITestsLaunchTests.swift */; };
+		565F3FBF276F3368000E67FC /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565F3FBE276F3368000E67FC /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		565F3FAB276F1827000E67FC /* RouteTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouteTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		565F3FAF276F1827000E67FC /* RouteTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteTaskUITests.swift; sourceTree = "<group>"; };
 		565F3FB1276F1827000E67FC /* RouteTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		565F3FBE276F3368000E67FC /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				565F3F97276F1827000E67FC /* Assets.xcassets */,
 				565F3F99276F1827000E67FC /* LaunchScreen.storyboard */,
 				565F3F9C276F1827000E67FC /* Info.plist */,
+				565F3FBE276F3368000E67FC /* Alert.swift */,
 			);
 			path = RouteTask;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				565F3F93276F1825000E67FC /* ViewController.swift in Sources */,
 				565F3F8F276F1825000E67FC /* AppDelegate.swift in Sources */,
+				565F3FBF276F3368000E67FC /* Alert.swift in Sources */,
 				565F3F91276F1825000E67FC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
